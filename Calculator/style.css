@@ -1,0 +1,85 @@
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+}
+.navbar-brand h1 {
+  color: white;
+}
+
+.navbar-nav a {
+  color: white;
+  margin-right: 10px;
+  border-bottom: 1px solid white;
+  padding-bottom: 3px;
+}
+
+.navbar-end a {
+  color: white;
+}
+
+.calculator {
+  background-color: black;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.calculator h1 {
+  padding-top: 30px;
+  border-bottom: 3px solid white;
+  padding-bottom: 30px;
+}
+
+.display {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  align-items: center;
+}
+
+#text {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 5px;
+}
+
+#clear,
+#tambah,
+#kurang,
+#kali,
+#bagi,
+#zero,
+#one,
+#two,
+#tree,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#ten {
+  width: 50px;
+  height: 50px;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
